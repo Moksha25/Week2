@@ -1,5 +1,16 @@
 import java.util.ArrayList;
 
+class Student
+{
+    public String name;
+
+    public Student(String name)
+    {
+        this.name = name;
+        System.out.println("Student : " + name);
+    }
+}
+
 class School
 {
     public String schoolName;
@@ -16,17 +27,6 @@ class School
     {
         Courses course = new Courses(coursesName);
         courses.add(course);
-    }
-}
-
-class Student
-{
-    public String name;
-
-    public Student(String name)
-    {
-        this.name = name;
-        System.out.println("Student : " + name);
     }
 }
 
